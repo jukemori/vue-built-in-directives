@@ -1,15 +1,18 @@
 <template>
   <div>
-    <Vbind />
+    <!-- <Vbind /> -->
+    <Vmodel />
   </div>
 </template>
 
 <script>
 import Vbind from "./components/Vbind.vue";
+import Vmodel from "./components/Vmodel.vue";
 
 export default {
   components: {
-    Vbind
+    Vbind,
+    Vmodel
   },
   // data() {
   //   return {
