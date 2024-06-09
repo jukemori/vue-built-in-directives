@@ -5,7 +5,8 @@
     <!-- <Vif /> -->
     <!-- <Vfor /> -->
     <!-- <Vshow /> -->
-    <Von />
+    <!-- <Von /> -->
+     <Vhtml />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Vif from "./components/Vif.vue";
 import Vfor from "./components/Vfor.vue";
 import Vshow from "./components/Vshow.vue";
 import Von from "./components/Von.vue";
+import Vhtml from "./components/Vhtml.vue";
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     Vif,
     Vfor,
     Vshow,
-    Von
+    Von,
+    Vhtml,
   },
 }
 </script>
