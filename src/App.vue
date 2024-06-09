@@ -3,7 +3,8 @@
     <!-- <Vbind /> -->
     <!-- <Vmodel /> -->
     <!-- <Vif /> -->
-    <Vfor />
+    <!-- <Vfor /> -->
+    <Vshow />
   </div>
 </template>
 
@@ -12,13 +13,15 @@ import Vbind from "./components/Vbind.vue";
 import Vmodel from "./components/Vmodel.vue";
 import Vif from "./components/Vif.vue";
 import Vfor from "./components/Vfor.vue";
+import Vshow from "./components/Vshow.vue";
 
 export default {
   components: {
     Vbind,
     Vmodel,
     Vif,
-    Vfor
+    Vfor,
+    Vshow,
   },
 }
 </script>
